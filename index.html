@@ -38,20 +38,56 @@
         </button>
 
         <nav id="primaryNavigation" class="primary-navigation" aria-label="Principal">
-          <a href="#home" data-i18n="nav.home">Home</a>
-          <a href="#solutions" data-i18n="nav.solutions">Soluções</a>
-          <a href="#audience" data-i18n="nav.audience">Para quem</a>
-          <a href="#differentials" data-i18n="nav.differentials">Diferenciais</a>
-          <a href="#contact" data-i18n="nav.contact">Contato</a>
+          <a href="#home">
+            <span class="nav-link">
+              <img src="assets/icons/menu/home.svg" alt="" class="nav-icon" aria-hidden="true" />
+              <span class="nav-link-label" data-i18n="nav.home">Home</span>
+            </span>
+          </a>
+
+          <a href="#solutions">
+            <span class="nav-link">
+              <img src="assets/icons/menu/solutions.svg" alt="" class="nav-icon" aria-hidden="true" />
+              <span class="nav-link-label" data-i18n="nav.solutions">Soluções</span>
+            </span>
+          </a>
+
+          <a href="#audience">
+            <span class="nav-link">
+              <img src="assets/icons/menu/audience.svg" alt="" class="nav-icon" aria-hidden="true" />
+              <span class="nav-link-label" data-i18n="nav.audience">Para quem</span>
+            </span>
+          </a>
+
+          <a href="#differentials">
+            <span class="nav-link">
+              <img src="assets/icons/menu/differentials.svg" alt="" class="nav-icon" aria-hidden="true" />
+              <span class="nav-link-label" data-i18n="nav.differentials">Diferenciais</span>
+            </span>
+          </a>
+
+          <a href="#contact">
+            <span class="nav-link">
+              <img src="assets/icons/menu/contact.svg" alt="" class="nav-icon" aria-hidden="true" />
+              <span class="nav-link-label" data-i18n="nav.contact">Contato</span>
+            </span>
+          </a>
         </nav>
 
         <div class="header-actions">
           <div class="language-switch" role="group" aria-label="Selecionar idioma">
-            <button class="language-button is-active" type="button" data-language="pt-BR"
-              aria-pressed="true">PT</button>
-            <button class="language-button" type="button" data-language="en-US" aria-pressed="false">EN</button>
+            <button class="language-button is-active" type="button" data-language="pt-BR" aria-pressed="true">
+              <img src="assets/icons/flags/brasil.svg" alt="Português do Brasil" class="language-flag" />
+              <span class="language-label">BR</span>
+            </button>
+
+            <button class="language-button" type="button" data-language="en-US" aria-pressed="false">
+              <img src="assets/icons/flags/usa.svg" alt="English" class="language-flag" />
+              <span class="language-label">US</span>
+            </button>
           </div>
-          <button id="themeToggle" class="theme-toggle" type="button" aria-label="Ativar modo claro" title="Ativar modo claro">
+          <button id="themeToggle" class="theme-toggle" type="button" aria-label="Ativar modo claro"
+            title="Ativar modo claro">
             <span class="theme-toggle-icon theme-icon-dark" aria-hidden="true">☾</span>
             <span class="theme-toggle-icon theme-icon-light" aria-hidden="true">☀</span>
           </button>
